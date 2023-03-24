@@ -4,7 +4,8 @@
   "description": "FilmFanatic is a Node.js API for movie registration that allows users to create, list, update and delete information about movies, such as name, description, rating and tags.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/viniciuspra/API_FilmFanatic/issues"
   },
-  "homepage": "https://github.com/viniciuspra/API_FilmFanatic#readme"
+  "homepage": "https://github.com/viniciuspra/API_FilmFanatic#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
