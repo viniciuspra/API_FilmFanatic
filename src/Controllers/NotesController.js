@@ -29,6 +29,15 @@ class NotesController {
 
     return response.json();
 
-}};
+  }
+
+  async show(request, response) {
+    const { id } = request.params;
+
+    const note = await knex("movie_notes").where({id}).first();
+
+    return response.json(note);
+  }
+};
 
 module.exports = NotesController;
