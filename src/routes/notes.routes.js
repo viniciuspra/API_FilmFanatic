@@ -1,11 +1,12 @@
 const { Router } = require("express")
 const NotesController = require("../Controllers/NotesController")
-const notesRoutes = Router()
 const notesController = new NotesController()
 
-notesRoutes.get("/", notesController.index)
-notesRoutes.post("/:user_id", notesController.create)
-notesRoutes.get("/:id", notesController.show)
-notesRoutes.delete("/:id", notesController.delete)
+const notesRouter = Router()
 
-module.exports = notesRoutes
+notesRouter.get("/", notesController.index)
+notesRouter.post("/:user_id", notesController.create)
+notesRouter.get("/:id", notesController.show)
+notesRouter.delete("/:id", notesController.delete)
+
+module.exports = notesRouter
