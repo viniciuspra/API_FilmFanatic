@@ -69,8 +69,12 @@ Para iniciar o servidor em modo de desenvolvimento, execute o seguinte comando:
 ```
 O servidor será iniciado na porta especificada no arquivo `.env`.
 
-## Licença 📄
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+## Deploy 🚀
+A aplicação FilmFanatic Backend foi implantada no Render e está disponível no seguinte <br>
+URL: https://filmfanatic-api.onrender.com.
 
 ## Front-End 💻
 Você pode encontrar o front-end correspondente do projeto FilmFanatic no seguinte repositório: [FilmFanatic Front-End](https://github.com/viniciuspra/FilmFanatic)
+
+## Licença 📄
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
